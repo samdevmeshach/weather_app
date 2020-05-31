@@ -2,9 +2,9 @@
 
 ## Steps to follow
 
-### Instal Node JS if not installed (Use -> https://nodejs.org/)
+### Install Node JS if not installed (Use -> https://nodejs.org/)
 
-### Instal NativeScript CLI Use this Command in Command Line `npm install -g nativescript`
+### Install NativeScript CLI Use this Command in Command Line `npm install -g nativescript`
 
 ### Install NativeScript Playground and NativeScript Preview App in playstore for mobile
 
