@@ -8,10 +8,10 @@ export class ApidataService {
 
   constructor() { }
   private weatherData = [
-    {details:{name:"No Feed"}, display:false,button:"+",result:false,temp:0,feelsLike:0,temp_min:0,temp_max:0,day:"",time:""},
-  {details:{name:"No Feed"},display:false,button:"+",result:false,temp:0,feelsLike:0,temp_min:0,temp_max:0,day:"",time:""},
-  {details:{name:"No Feed"},display:false,button:"+",result:false,temp:0,feelsLike:0,temp_min:0,temp_max:0,day:"",time:""},
-  {details:{name:"No Feed"}, display:false,button:"+",result:false,temp:0,feelsLike:0,temp_min:0,temp_max:0,day:"",time:""}
+    {details:{name:"No Feed"}, display:false,button:"+",result:false,temp:0,feelsLike:0,temp_min:0,temp_max:0,day:"",time:"",referesh:""},
+  {details:{name:"No Feed"},display:false,button:"+",result:false,temp:0,feelsLike:0,temp_min:0,temp_max:0,day:"",time:"",referesh:""},
+  {details:{name:"No Feed"},display:false,button:"+",result:false,temp:0,feelsLike:0,temp_min:0,temp_max:0,day:"",time:"",referesh:""},
+  {details:{name:"No Feed"}, display:false,button:"+",result:false,temp:0,feelsLike:0,temp_min:0,temp_max:0,day:"",time:"",referesh:""}
 ];
 private retrivedData = new AsyncSubject();
   load()
@@ -29,12 +29,27 @@ private retrivedData = new AsyncSubject();
     this.weatherData[panel].button = "+";
     this.weatherData[panel].result = true;
   }
+  clear(panel)
+  {
+    let end:any = this.weatherData[panel].referesh;
+    clearInterval(end);
+    this.weatherData[panel].result=false;
+  }
   hitApi(panel,city)
   {
-    getJSON(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=11c67480f984b1da7f4e6533da782fc4`).then((r: any) => {
+    getJSON(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=11c67480f984b1da7f4e6533da782fc4`).then((r: any) => {
       this.weatherData[panel].button = "+";
       this.weatherData[panel].details.name= "Wrong City";
       this.weatherData[panel].display = false;
+      let start:any = setInterval(()=>{
+        getJSON(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=11c67480f984b1da7f4e6533da782fc4`).then((r: any) => {
+      this.weatherData[panel].button = "+";
+      this.weatherData[panel].details.name= "Wrong City";
+      let data:any = r;
+      this.weatherData[panel].referesh = start;
+      this.weatherData[panel].display = false;
+      this.setData(data,panel)
+      })},5000);
       if(city == r.name){
         let data:any = r;
         this.setData(data,panel);
