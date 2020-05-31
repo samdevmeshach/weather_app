@@ -2,28 +2,28 @@
 
 ## Steps to follow
 
-### Install Node JS if not installed (Use -> https://nodejs.org/)
+### 1. Install Node JS if not installed (Use -> https://nodejs.org/)
 
-### Install NativeScript CLI Use this Command in Command Line `npm install -g nativescript`
+### 2. Install NativeScript CLI Use this Command in Command Line `npm install -g nativescript`
 
-### Install NativeScript Playground and NativeScript Preview App in playstore for mobile
+### 3. Install NativeScript Playground and NativeScript Preview App in playstore for mobile
 
-### Open Command Prompt Navigate to project directory
+### 4. Open Command Prompt Navigate to project directory
 
-### Run `tns preview` Command in Command Prompt
+### 5. Run `tns preview` Command in Command Prompt
 
-### QR Code will be Displayed in few seconds and scan the QR Code using NativeScript Preview App in Mobile
+### 6. QR Code will be Displayed in few seconds and scan the QR Code using NativeScript Preview App in Mobile
 
-### The Weather Application opens on your Mobile
+### 7. The Weather Application opens on your Mobile
 
 ## Instruction for Application
 
-### Click on the plus button located on top-right corner
+### 1. Click on the plus button located on top-right corner
 
-### Input field and getdata button will appear, Type the location and click on getdata button
+### 2. Input field and getdata button will appear, Type the location and click on getdata button
 
-### If the city is correct the weather data will be displayed in current panel
+### 3. If the city is correct the weather data will be displayed in current panel
 
-### If the city is wrong, worng city error message will be displayed at center
+### 4. If the city is wrong, worng city error message will be displayed at center
 
-### Click on the Minus button located on top-right corner to edit current panel
+### 5. Click on the Minus button located on top-right corner to edit current panel
