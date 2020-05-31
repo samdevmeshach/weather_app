@@ -33,7 +33,7 @@
                         <Label class="nofeed" text = {{item.details.name}} ></Label>
                     </ng-template>
                     <StackLayout *ngIf="item.display" style="margin-top: -50; position: sticky;">
-                        <TextField class="input" [(ngModel)]="city" hint="City Name"></TextField>
+                        <TextField class="input" [(ngModel)]="city" hint="City Name" ></TextField>
                         <button (tap)="search(i)" class="search" text="Get Data"></button>
                     </StackLayout>
                 </StackLayout>
