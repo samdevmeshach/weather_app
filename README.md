@@ -24,6 +24,6 @@
 
 ### 3. If the city is correct the weather data will be displayed in current panel
 
-### 4. If the city is wrong, worng city error message will be displayed at center
+### 4. If the city is wrong, wrong city error message will be displayed at center
 
 ### 5. Click on the Minus button located on top-right corner to edit current panel
