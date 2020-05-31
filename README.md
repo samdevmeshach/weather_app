@@ -1,20 +1,20 @@
-Weather Application using Angular and Native!!!
+Weather Application using NativeScript and Angular 9!!!
 
 Steps to follow
 
--> Instal Node JS if not installed (Use -> https://nodejs.org/)
+1. Instal Node JS if not installed (Use -> https://nodejs.org/)
 
--> Instal NativeScript CLI (Use this Command in Command Line -> npm install -g nativescript)
+2. Instal NativeScript CLI (Use this Command in Command Line -> npm install -g nativescript)
 
--> Install Nativa Playground and Native Preview App in playstore for mobile
+3. Install NativeScript Playground and NativeScript Preview App in playstore for mobile
 
--> Open Command Prompt Navigate to project directory
+4. Open Command Prompt Navigate to project directory
 
--> Run (tns preview) Command in Command Prompt
+5. Run (tns preview) Command in Command Prompt
 
--> QR Code will be Displayed in few seconds and scan the QR Code using Native Preview App in Mobile
+6. QR Code will be Displayed in few seconds and scan the QR Code using NativeScript Preview App in Mobile
 
--> The Weather Application opens on your Mobile
+7. The Weather Application opens on your Mobile
 
 Instruction for Application
 
