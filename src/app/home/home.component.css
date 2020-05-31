@@ -1,0 +1,112 @@
+.search{
+    border-radius: 10;
+    background-color: rgba(153, 72, 199, 0.651);
+    color: rgb(255, 255, 255);
+    width: 180;
+    height: 35;
+}
+.edit{
+    border-radius: 400;
+    background-color: rgb(221, 40, 40);
+    color: white;
+    width: 50;
+    margin-left: 270;
+    font-size: 30px;
+}
+.fixed{
+    position: static;
+}
+.container{
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgba(6, 19, 36, 0.938), rgba(6, 19, 36, 0.705), rgba(6, 19, 36, 0.616));
+    /* background-color: rgba(6, 19, 36, 0.938); */
+    color: black;
+    width: 350;
+    height: 230;
+}
+TextField{
+    color: white;
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 0.1;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ActionBar{
+    background: linear-gradient(to bottom, rgba(6, 19, 36, 0.938), rgba(6, 19, 36, 0.705), rgba(6, 19, 36, 0.616));
+    /* background-color: rgba(153, 72, 199, 0.651); */
+}
+.input{
+    border-bottom: black;
+    font-size: large;
+}
+.nofeed{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    letter-spacing: .1;
+    font-weight: 600;
+}
+.location{
+    font-weight: bold;
+    margin-left: -5;
+    color: white;
+}
+.temp{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-top: -160;
+    margin-left: -5;
+    /* margin-left: 15; */
+}
+.feels{
+    margin-top:-10;
+    margin-left: -3;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.min_max{
+    margin-top: -5;
+    margin-left: -3;
+    color: white;
+}
+.condition{
+    text-transform: capitalize;
+    margin-top: -13;
+    font-size: 13px;
+    margin-left: -3;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.wind{
+    margin-left: -290;
+    margin-top: -15;
+}
+.windtxt{
+    margin-top: -27;
+    margin-left: 25;
+    color:rgb(255, 255, 255);
+}
+.humidity{
+    margin-left: -290;
+}
+.humiditytxt{
+    margin-left: 25;
+    margin-top: -27;
+    color:rgb(255, 255, 255);
+}
+.climate{
+    margin-top: -5;
+    margin-left: -3;
+    color:rgb(255, 255, 255);
+}
+.date_time{
+    color:rgb(255, 255, 255);
+    margin-top: -27;
+    text-align: right;
+    font-weight: bold;
+}
