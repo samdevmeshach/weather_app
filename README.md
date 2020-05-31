@@ -16,7 +16,7 @@
 
 ### 7. The Weather Application opens on your Mobile
 
-## Instruction for Application
+## Instruction to use Application
 
 ### 1. Click on the plus button located on top-right corner
 
