@@ -12,7 +12,7 @@
 
 ### 5. Run `tns preview` Command in Command Prompt
 
-### 6. QR Code will be Displayed in few seconds and scan the QR Code using NativeScript Preview App in Mobile
+### 6. QR Code will be Displayed in few seconds and scan the QR Code using NativeScript Playground App in Mobile
 
 ### 7. The Weather Application opens on your Mobile
 
