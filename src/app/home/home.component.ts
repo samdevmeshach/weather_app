@@ -15,7 +15,11 @@ export class HomeComponent implements OnInit {
     data = [];
     constructor(private details: ApidataService){}
     change(index)
-    {        this.city = "";
+    {   this.city = "";
+        this.details.clear(index);
+        this.details.fetchData().subscribe((value)=>{
+            this.data.push(value);
+        })
         if(!this.data[index].display)
         {
             this.data[index].display = true;

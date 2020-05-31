@@ -1,4 +1,4 @@
-<page class="body">
+<page style="background-color: white;">
 <ActionBar>
     <Label class="title" text="Weather App" ></Label>
 </ActionBar>
@@ -11,7 +11,7 @@
                     <StackLayout *ngIf="item.result; else elseBlock" style="margin-top: -70;" >
                         <Label class="location" text = {{item.details.name}},{{item.details.sys.country}}></Label>
                         <Image width="350" height="350" style="margin-top: -30;"
-                                src="http://openweathermap.org/img/wn/{{item.details.weather[0].icon}}@2x.png" >
+                                src="https://openweathermap.org/img/wn/{{item.details.weather[0].icon}}@2x.png" >
                         </Image>
                         <Label class="temp" text={{item.temp}}{{degree}}C></Label>
                         <Label class="feels" text={{feels}}{{item.feelsLike}}{{degree}}C></Label>

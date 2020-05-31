@@ -44,8 +44,9 @@ ActionBar{
 }
 .nofeed{
     text-align: center;
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 20px;
+    margin-top: 20;
     letter-spacing: .1;
     font-weight: 600;
 }
