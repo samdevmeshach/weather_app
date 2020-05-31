@@ -1,6 +1,6 @@
 # Weather Application using NativeScript and Angular 9!!!
 
-## Steps to follow
+## Steps to run the application
 
 ### 1. Install Node JS if not installed (Use -> https://nodejs.org/)
 
