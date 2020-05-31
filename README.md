@@ -4,7 +4,7 @@
 
 ### 1. Install Node JS if not installed (Use -> https://nodejs.org/)
 
-### 2. Install NativeScript CLI Use this Command in Command Line `npm install -g nativescript`
+### 2. Install NativeScript CLI Use this Command in Command Line `npm install -g nativescript` and Install Angular CLI using `npm install -g angular/cli`
 
 ### 3. Install NativeScript Playground and NativeScript Preview App in playstore for mobile
 
