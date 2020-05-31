@@ -18,12 +18,12 @@ Steps to follow
 
 Instruction for Application
 
--> Click on the plus button located on top-right corner
+1. Click on the plus button located on top-right corner
 
--> Input field and get data button will appear, Type the location and click get data button
+2. Input field and getdata button will appear, Type the location and click on getdata button
 
--> If the city is correct the weather data will be displayed in current panel
+3. If the city is correct the weather data will be displayed in current panel
 
--> If the city is wrong, worng city error message will be displayed at center
+4. If the city is wrong, worng city error message will be displayed at center
 
--> Click on the Minus button located on top-right corner to edit current panel
+5. Click on the Minus button located on top-right corner to edit current panel
